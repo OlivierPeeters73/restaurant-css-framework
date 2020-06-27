@@ -1,0 +1,112 @@
+body {
+    background-image: url(images/background_BW.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "UniversLT-UltraCondensed";
+    src: url(font/Univers\ LT\ 59\ Ultra\ Condensed.ttf);
+}
+
+@font-face {
+    font-family: "ZillaSlab-Italic";
+    src: url(font/ZillaSlab-Italic.ttf);
+}
+
+h2 {
+    font-family: "UniversLT-UltraCondensed";
+    font-size: 3.5em;
+    letter-spacing: 0.1em;
+    color: #d1b085;
+    text-align: center;
+}
+
+h3 {
+    font-family: "UniversLT-UltraCondensed";
+    font-size: 2.5em;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;    
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav li a {
+    font-size: large;
+    color: black;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #d1b085;
+      background-color: transparent;
+      border: 1px solid #d1b085;
+      border-radius: 5px;
+}
+
+.jumbotron {
+    background-color: rgb(120, 120, 120, 0.4);
+    text-align: center;
+    font-family: "UniversLT-UltraCondensed";
+    letter-spacing: 0.5em;
+}
+
+.jumbotron hr {
+    background-color: #d1b085;
+    height: 3px;
+    border: none;
+}
+
+.jumbotron h1 {
+    font-size: 10em;
+    color: #d1b085;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.jumbotron p {
+    font-size: 5em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.panel {
+    background-color: rgb(120, 120, 120, 0.4);
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 70%;
+    height: 340px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.panel p {
+    font-family: "ZillaSlab-Italic";
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.panel ul {
+    color: #ffffff;
+}
+
+[class*="col-"] {
+    border-radius: 5px;
+    
+}
