@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Exercice Bootstrap - Réalisation d'une page web d'un restaurant fictif">
+        <meta name="author" content="Olivier Peeters">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- LIENS CDN BOOTSTRAP CSS ET FONTAWESOME -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <!-- CSS LOCAL -->
+        <link rel="stylesheet"href="style.css">
+
+        <!-- LOGO A COTE DU TITRE DE LA PAGE -->
+        <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    
+        <!-- TITRE DE LA PAGE -->
+        <title>BEST BURGER</title>
+    </head>
+    
+    <!-- BODY -->
+    <body>
+        <!-- HEADER WITH NAVBAR -->
+        <header>
+            
+            <nav class="navbar navbar-default">
+                <!-- LOGO NAVBAR -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo Best Burger"></a>
+                </div>
+                    
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="index.html">WELCOME</a></li>
+                    <li class="active"><a href="menu.html">MENU</a></li>
+                    <li><a href="galerie.html">GALERIE</a></diliv>
+                    <li><a href="restaurants.html">RESTAURANTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- MENU -->
+        <div class="container">
+            <section class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 menu">
+                
+                <h2>MENU</h2>
+                <h3>ENTREES</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">hot</span>
+                        <h4>NACHOS</h4>
+                        <p>Guacamole, crème, piments jalapeños, oignons rouges, sauce tomate</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">hot</span>
+                        <h4>NACHOS CON QUESO</h4>
+                        <p>Guacamole, crème, piments jalapeños, sauce cheddar, </p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">veggie</span>
+                        <h4>ONION RINGS</h4>
+                        <p>Servis avec une sauce BBQ maison</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">fish</span>
+                        <h4>CHIPIRONES</h4>
+                        <p>Servis avec une sauce tartare maison</p>
+                    </li>
+                </ul>
+
+                <h3>BURGERS</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">bio</span>
+                        <h4>BEST CLASSIC</h4>
+                        <p>Pain maison, bœuf bio 100% belge, salade, tomate, oignons rouges, cornichons, moutarde et ketchup</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">bio</span>
+                        <h4>BEST BRUSSELEIR</h4>
+                        <p>Pain maison, bœuf 100% bio belge, chicon, fromage de Chimay, sauce Best Burger</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">bio</span>
+                        <h4>BEST FRENCH</h4>
+                        <p>Pain maison, bœuf bio 100% belge, salade, confit d'oignon, sauce à la Fourme d'Ambert</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">bio</span>
+                        <h4>BEST NEW YORK</h4>
+                        <p>Pain maison, bœuf bio 100% belge, cheddar, bacon, oignons marinés, sauce Best Burger</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">fish</span>
+                        <h4>BEST FISH</h4>
+                        <p>Pain maison, filet de cabillaud pané Panko, fromage d'abbaye, salade, tomate, sauce tartare maison</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">chicken</span>
+                        <h4>BEST CHICKEN</h4>
+                        <p>Pain maison, filet de poulet, fromage d'abbaye, oignon rouge, tomate, sauce Best Burger</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">veggie</span>
+                        <h4>BEST VEGGIE</h4>
+                        <p>Pain maison, röstis, légumes croustillants, tomate, mayonnaise maison</p>
+                    </li>
+                </ul>
+
+                <h3>ACCOMPAGNEMENTS</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h4>FRENCH FRIES</h4>
+                    </li>
+
+                    <li class="list-group-item">
+                        <h4>FRITES DE PATATES DOUCES</h4>
+                    </li>
+
+                    <li class="list-group-item">
+                        <h4>SALADE MIXTE</h4>
+                    </li>
+                </ul>
+
+                <h3>KIDS</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">bio</span>
+                        <h4>BEST CLASSIC KID</h4>
+                        <p>Le Best Classic avec un burger de bœuf bio 100% belge de 100 g</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">chicken</span>
+                        <h4>BEST CHICKEN KID</h4>
+                        <p>Le Best Chicken avec un filet de poulet de 100 g<</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="badge badge-primary badge-pill">chicken</span>
+                        <h4>CHICKEN NUGGETS</h4>
+                        <p>5 pièces</p>
+                    </li>
+                </ul>
+
+            </section>
+        </div>
+        
+        <!-- FOOTER -->
+        <footer class="container-fluid">
+            <div class="row">
+            
+                <div class="col-sm-12 col-md-6 col-md-offset-3">
+                    <!-- LIENS RESEAUX SOCIAUX -->
+                    <a href="https://www.facebook.com">
+                        <i class="fa fa-3x fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <i class="fa fa-3x fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <i class="fa fa-3x fa-twitter"></i>
+                    </a>
+                    <!-- COPYRIGHT -->
+                    <p>&copy; 2020 Myself</p>
+
+                </div>
+        
+            </div>
+        </footer>
+
+        <!-- SCRIPTS JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+    </body>
+    </html>

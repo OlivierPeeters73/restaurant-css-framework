@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Exercice Bootstrap - Réalisation d'une page web d'un restaurant fictif - PAGE restaurant Bruxelles">
+        <meta name="author" content="Olivier Peeters">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- LIENS CDN BOOTSTRAP CSS ET FONTAWESOME -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <!-- CSS LOCAL -->
+        <link rel="stylesheet"href="style.css">
+
+        <!-- LOGO A COTE DU TITRE DE LA PAGE -->
+        <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    
+        <!-- TITRE DE LA PAGE -->
+        <title>BEST BURGER</title>
+    </head>
+    
+    <!-- BODY -->
+    <body>
+        <!-- HEADER WITH NAVBAR -->
+        <header>
+            
+            <nav class="navbar navbar-default">
+                <!-- LOGO NAVBAR -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+                    
+                <ul class="nav navbar-nav">
+                    
+                    <li><a href="index.html">WELCOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="galerie.html">GALERIE</a></diliv>
+                    <li class="active"><a href="restaurants.html">RESTAURANTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+
+        <section class="container-fluid">
+            <!-- CHOIX RESTAURANTS -->
+            <div class="row restaurants">
+                <div class="col-sm-3">
+                    <a href="restaurant_bruxelles.html"><h3 class="restaurants">BEST BURGER Bruxelles</h3></a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a href="restaurant_liege.html"><h3 class="restaurants">BEST BURGER Liège</h3></a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a href="restaurant_namur.html"><h3 class="restaurants">BEST BURGER Namur</h3></a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a href="restaurant_mons.html"><h3 class="restaurants">BEST BURGER Mons</h3></a>
+                </div>                 
+            </div>
+
+            <!-- ADRESSE ET HORAIRES -->
+            <div class="row coord">
+                <div class="col-sm-12 col-md-3 col-md-offset-2" id="address">
+                    <h4>BEST BURGER Bruxelles</h4>
+                    <p>Place du Châtelain, 1050 Bruxelles</p>
+                    <p>+32 (0)2 987 65 43</p>
+                    <p>Ouvert 7/7 de 11h30 à 14h et de 17h30 à 23h</p>
+                </div>
+
+                <!-- IFRAME GOOGLE MAP -->
+                <div class="col-sm-12 col-md-4 col-md-offset-1 text-center">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=113hfWEcyqa6b3xEllO4FniHjcx1bMx5P" height="450" width="450"></iframe>
+                </div>
+            </div>
+        
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="container-fluid">
+            <div class="row">
+            
+                <div class="col-sm-12 col-md-6 col-md-offset-3">
+                    <!-- LIENS RESEAUX SOCIAUX -->
+                    <a href="https://www.facebook.com">
+                        <i class="fa fa-3x fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <i class="fa fa-3x fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <i class="fa fa-3x fa-twitter"></i>
+                    </a>
+
+                    <!-- COPYRIGHT -->
+                    <p>&copy; 2020 Myself</p>
+
+                </div>
+        
+            </div>
+        </footer>
+
+        <!-- SCRIPTS JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+             
+    </body>
+</html>
