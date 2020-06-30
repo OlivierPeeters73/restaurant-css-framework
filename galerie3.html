@@ -4,7 +4,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="Exercice Bootstrap - Réalisation d'une page web d'un restaurant fictif - pages choix restaurants pour les infos">
+        <meta name="description" content="Exercice Bootstrap - Réalisation d'une page web d'un restaurant fictif">
         <meta name="author" content="Olivier Peeters">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -21,14 +21,14 @@
         <!-- TITRE DE LA PAGE -->
         <title>BEST BURGER</title>
     </head>
-    
+
     <!-- BODY -->
     <body>
         <!-- HEADER WITH NAVBAR -->
         <header>
             
             <nav class="navbar navbar-default">
-                <!-- LOGO NAVBAR -->
+                <!-- LOGO NAVBAR  -->
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo Best Burger"></a>
                 </div>
@@ -37,48 +37,46 @@
                     
                     <li><a href="index.html">WELCOME</a></li>
                     <li><a href="menu.html">MENU</a></li>
-                    <li><a href="galerie.html">GALERIE</a></diliv>
-                    <li class="active"><a href="restaurants.html">RESTAURANTS</a></li>
+                    <li class="active"><a href="galerie.html">GALERIE</a></diliv>
+                    <li><a href="restaurants.html">RESTAURANTS</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
 
                 </ul>
             </nav>
 
         </header>
-
-
-        <section class="container-fluid">
-            <!-- CHOIX RESTAURANTS -->
-            <div class="row restaurants">
-                <div class="col-sm-3">
-                    <a href="restaurant_bruxelles.html"><h3 class="restaurants">BEST BURGER Bruxelles</h3></a>
-                </div>
-
-                <div class="col-sm-3">
-                    <a href="restaurant_liege.html"><h3 class="restaurants">BEST BURGER Liège</h3></a>
-                </div>
-
-                <div class="col-sm-3">
-                    <a href="restaurant_namur.html"><h3 class="restaurants">BEST BURGER Namur</h3></a>
-                </div>
-
-                <div class="col-sm-3">
-                    <a href="restaurant_mons.html"><h3 class="restaurants">BEST BURGER Mons</h3></a>
-                </div>
-            </div>
-
-            <!-- INFO DEMANDE DE CHOISIR UN RESTAURANT -->
-            <div class="choix">Veuillez choisir un restaurant</div>
         
-        </section>
+        <!-- 3 PHOTOS PAGE 3 -->
+        <div class="container-fluid">
+            <section class="row picture">
+                <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                    <div class="col-sm-8 col-md-4"><img src="images/07.jpg" alt="photo Best Burger de Namur"></div>
+                    <div class="col-sm-8 col-md-4"><img src="images/08.jpg" alt="photo de nachos"></div>
+                    <div class="col-sm-8 col-md-4"><img src="images/09.jpg" alt="photo de chipirones"></div>
+                </div>
+            </section>
 
-       
+            <!-- PAGINATION -->
+            <section class="row">
+                <div id="pagination">
+                    <ul class="pagination">
+                        <li><a href="galerie2.html"><span class="glyphicon glyphicon-backward"></span></a></li>
+                        <li><a href="galerie.html">1</a></li>
+                        <li><a href="galerie2.html">2</a></li>
+                        <li class="active"><a href="galerie3.html">3</a></li>
+                        <li><a href="galerie4.html">4</a></li>
+                        <li><a href="galerie4.html"><span class="glyphicon glyphicon-forward"></span></a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
         <!-- FOOTER -->
         <footer class="container-fluid">
             <div class="row">
-            
+                <!-- LIENS RESEAUX SOCIAUX -->
                 <div class="col-sm-12 col-md-6 col-md-offset-3">
-                    <!-- LIENS RESEAUX SOCIAUX -->
                     <a href="https://www.facebook.com">
                         <i class="fa fa-3x fa-facebook"></i>
                     </a>
@@ -100,6 +98,6 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
+             
     </body>
 </html>

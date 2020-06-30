@@ -4,7 +4,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="Exercice Bootstrap - Réalisation d'une page web d'un restaurant fictif - pages choix restaurants pour les infos">
+        <meta name="description" content="Exercice Bootstrap - Réalisation d'une page web d'un restaurant fictif - page du restaurant de Mons">
         <meta name="author" content="Olivier Peeters">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -46,7 +46,6 @@
 
         </header>
 
-
         <section class="container-fluid">
             <!-- CHOIX RESTAURANTS -->
             <div class="row restaurants">
@@ -64,15 +63,26 @@
 
                 <div class="col-sm-3">
                     <a href="restaurant_mons.html"><h3 class="restaurants">BEST BURGER Mons</h3></a>
-                </div>
+                </div>                 
             </div>
 
-            <!-- INFO DEMANDE DE CHOISIR UN RESTAURANT -->
-            <div class="choix">Veuillez choisir un restaurant</div>
-        
+            <!-- ADRESSE ET HORAIRES -->
+            <div class="row coord">
+                <div class="col-sm-12 col-md-3 col-md-offset-2" id="address">
+                    <h4>BEST BURGER Mons</h4>
+                    <p>Grand Place, 7000 Mons</p>
+                    <p>+32 (0)35 98 76 54</p>
+                    <p>Ouvert 7/7 de 11h30 à 14h et de 17h30 à 23h</p>
+                </div>
+
+                <!-- IFRAME GOOGLE MAP -->
+                <div class="col-sm-12 col-md-4 col-md-offset-1 text-center">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1csiUG_ORKYRdLecDgEJOFj67-95gjsoR" height="450" width="450"></iframe>
+               </div>
+            </div>
+
         </section>
 
-       
         <!-- FOOTER -->
         <footer class="container-fluid">
             <div class="row">

@@ -1,95 +1,126 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Exercice Bootstrap - Réalisation d'une page web d'un restaurant fictif">
-    <meta name="author" content="Olivier Peeters">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet"href="style.css">
-    <title>BEST BURGER</title>
-</head>
-<body>
-    <!-- HEADER WITH NAVBAR -->
-    <header>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Exercice Bootstrap - Réalisation d'une page web d'un restaurant fictif">
+        <meta name="author" content="Olivier Peeters">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- LIENS CDN BOOTSTRAP CSS ET FONTAWESOME -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         
-        <nav class="navbar navbar-default">
+        <!-- CSS LOCAL -->
+        <link rel="stylesheet"href="style.css">
 
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">BEST BURGER</a>
-            </div>
+        <!-- LOGO A COTE DU TITRE DE LA PAGE -->
+        <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    
+        <!-- TITRE DE LA PAGE -->
+        <title>BEST BURGER</title>
+    </head>
+    
+    <!-- BODY -->
+    <body>
+        <!-- HEADER WITH NAVBAR -->
+        <header>
             
-            <ul class="nav navbar-nav">                
-                <li class="active"><a class="nav-link" href="index.html">WELCOME</a></li>
-                <li><a class="nav-link" href="menu.html">MENU</a></li>
-                <li><a class="nav-link" href="galerie.html">GALERIE</a></diliv>
-                <li><a class="nav-link" href="restaurants.html">RESTAURANTS</a></li>
-                <li><a class="nav-link" href="contact.html">CONTACT</a></li>
-            </ul>
+            <nav class="navbar navbar-default">
+                <!-- LOGO NAVBAR -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo Best Burger"></a>
+                </div>
+                    
+                <ul class="nav navbar-nav">
+                    
+                    <li class="active"><a href="index.html">WELCOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="galerie.html">GALERIE</a></diliv>
+                    <li><a href="restaurants.html">RESTAURANTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
 
-        </nav>
+                </ul>
+            </nav>
 
-    </header>
+        </header>
+        
 
-    <section class="container-fluid">
-        <div class="row">
+        <section class="container-fluid">
+            <div class="row">
 
-            <!-- JUMBOTRON -->
-            <div class="row"></div>
-                <div class="col-sm-6">
-                    <div class="jumbotron">
-                        <hr>
-                        <h1>BEST BURGER</h1>
-                        <p>Le meilleur</p>
-                        <p>...</p>
-                        <p>tout simplement</p>
-                        <hr>
+                <!-- JUMBOTRON -->
+                <div class="row"></div>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="jumbotron">
+                            <hr>
+                            <h1>BEST BURGER</h1>
+                            <p>Le meilleur</p>
+                            <p>...</p>
+                            <p>tout simplement</p>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <!-- 2 PANELS -->
+                    <div class="col-sm-6 col-md-6">
+
+                        <!--1ER PANEL -->
+                        <section class="panel">
+                            <h2>INFO COVID-19</h2>
+                            <h3>Nous sommes de retour</h3>
+                            <p>Après de longues semaines de fermeture, nous vous accueillons de nouveau dans nos différents restaurants !
+                                Afin de garantir la sécurité de nos clients et de notre personnel, nous avons mis en place plusieurs mesures:</p>
+                            <ul>
+                                <li>réservation OBLIGATOIRE</li>
+                                <li>réduction du nombre de tables afin de garantir la distanciation</li>
+                                <li>seuls les paiements électroniques sont acceptés</li>
+                                <li>la cuisine ferme à 22h</li>
+                            </ul>
+                        </section>
+                    
+                        <!--2EME PANEL -->
+                        <section class="panel">
+                            <h2>!!! HOT HOT HOT !!!</h2>
+                            <h3>Le burger du mois</h3>
+                            <p>Chaque mois nous vous proposons un burger en édition limitée.</p>
+                            <p>Ce mois-ci: le THAI - bun au sésame, filet de poulet, sauce au curry rouge, oignon rouge, épinards, coriandre ...</p>
+                        </section>
+                        
                     </div>
                 </div>
 
-            
-                <div class="col-sm-6">
-                    
-                    <section class="panel">
-                        <h2>INFO COVID-19 !</h2>
-                        <h3>Nous sommes de retour</h3>
-                        <p>Après de longues semaines de fermeture, nous vous accueillons de nouveau dans nos différents restaurants !
-                            Afin de garantir la sécurité de nos clients et de notre personnel, nous avons mis en place plusieurs mesures:</p>
-                        <ul>
-                            <li>réservation OBLIGATOIRE</li>
-                            <li>réduction du nombre de tables afin de garantir la distanciation</li>
-                            <li>seuls les paiements électroniques sont acceptés</li>
-                            <li>la cuisine fermera à 22h</li>
-                        </ul>
-                    </section>
-                
-                
-                    <section class="panel">
-                        <h2>!!! HOT HOT HOT !!!</h2>
-                        <h3>Le burger du mois</h3>
-                        <p>Chaque mois nous vous proposons un burger différent en édition limitée.</p>
-                        <p>Ce mois-ci: le THAI - bun au sésame, filet de poulet, sauce au curry rouge, oignon rouge, épinards, coriandre et ... 
-                            encore d'autres ingrédients secrets !</p>
-                    </section>
-                    
-                </div>
             </div>
-        </div>
+        </section>
+        
+        <!-- FOOTER -->
+        <footer class="container-fluid">
+            <div class="row">
+            
+                <div class="col-sm-12 col-md-6 col-md-offset-3">
+                    <!-- LIENS RESEAUX SOCIAUX -->
+                    <a href="https://www.facebook.com">
+                        <i class="fa fa-3x fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <i class="fa fa-3x fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <i class="fa fa-3x fa-twitter"></i>
+                    </a>
+                    <!-- COPYRIGHT -->
+                    <p>&copy; 2020 Myself</p>
 
-
-
-    </section>
-
-    
-
-    
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-</body>
+                </div>
+        
+            </div>
+        </footer>
+ 
+        <!-- SCRIPTS JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
+    </body>
 </html>
