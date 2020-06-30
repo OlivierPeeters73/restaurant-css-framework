@@ -22,7 +22,7 @@ Renforcer le placement d'élément avec Bootstrap
 
 
 ## Instructions:
-https://https://github.com/becodeorg/BXL-Swartz-3-21/blob/master/03-HTML-CSS/bootstrap/restaurant.adoc
+https://github.com/becodeorg/BXL-Swartz-3-21/blob/master/03-HTML-CSS/bootstrap/restaurant.adoc
 
 
 ## Crédit:
