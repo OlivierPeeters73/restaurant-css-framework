@@ -1,5 +1,5 @@
 # restaurant-css-framework
-**[ ---> Mon site](https://olivierpeeters73.github.io/restaurant-css-framework)**
+**[ ---> Mon site](https://olivierpeeters73.github.io/restaurant-css-framework/)**
 
 ## Description:
 Voici le site d'un restaurant fictif (franchise) dans le cadre d'un exercice sur Bootstrap pendant une formation de Web Developer chez [BeCode](https://becode.org/)
